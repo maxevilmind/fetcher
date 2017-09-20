@@ -31,8 +31,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <input type="text" name="fname" value={this.state.name} onChange={this.handleChange}></input>
-        <button onClick={this.handleClick}>Fetch</button>
+        <input id="fetch-text" type="text" name="fname" value={this.state.name} onChange={this.handleChange}></input>
+        <button id="fetch-button" onClick={this.handleClick}>Fetch</button>
         <ul>{this.linkArray}</ul>
       </div>
     );

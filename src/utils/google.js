@@ -17,7 +17,7 @@ export function fetchGoogle (name) {
                 links = links.set('skype', RegExp('(?:(?:callto|skype):)(?:[a-z][a-z0-9\\.,\\-_]{5,31})(?:\\?(?:add|call|chat|sendfile|userinfo))?'));
                 links = links.set('telegram', new RegExp('https?:\/\/(t(elegram)?\.me|telegram\.org)\/([a-z0-9\_]{5,32})\/?'));
                 links = links.set('otherLinks', RegExp('https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)'));
-
+                
                 if (links.get('gmail').exec(responseText) !== null) {
                   res = res.push(links.get('gmail').exec(responseText));
                 }
