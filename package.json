@@ -1,0 +1,27 @@
+{
+  "name": "fetcher",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "google": "^2.1.0",
+    "google-scraper": "^1.1.2",
+    "google-search-scraper": "^0.0.3",
+    "immutable": "^3.8.1",
+    "jest": "^21.1.0",
+    "jquery": "^3.2.1",
+    "querystring-browser": "^1.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.13",
+    "redux": "^3.7.2",
+    "yandex-search": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
